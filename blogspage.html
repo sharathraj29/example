@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design and Development Card</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6cfb21434c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="blogspage.css">
+    <script src="blogspage.js" defer></script>
+    <script src="index.js" defer></script>
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="iamdigipro" al style="width: 110px; height: 40px;"></a>
+        </div>
+        
+        <div class="toggle-search-icon" style="display: flex;">
+            <div class="nav-search-icon">
+                        
+                <div class="container-search">
+                    <form role="search" method="get" class="search-form-icon" action="">
+                        <label>
+
+                         <input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+                        </label>
+                            <input type="submit" class="search-submit" value="Search" />
+                     </form>
+                </div>
+            </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        
+                          
+                        <span class="navbar-toggler-icon"></span>
+                    
+                    </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                    Services</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"  href="digitalMarketingServicesPage.html">Digital Marketing   <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="WebDevelopment.html">Web/App Development <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="graphicDesign.html">Graphic/UI Design <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="consultingServices.html">Consulting <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="influencerMarketingServices.html">Influencer Marketing <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                    Careers</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"  href="careersPage.html">Training <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="careersPage.html#internshipSupportSection">Internship <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                        <a class="dropdown-item"  href="careersPage.html#jobAssistanceSection">Job Oppartunities <i class="fa-solid fa-arrow-right" style="color: #fafafa; float: right;"></i></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="portfolio.html"><b>Portfolio</b></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="blogspage.html"><b>Blogs</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html"><b>About us</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consultsus.html"><b>Consult us</b></a>
+                </li>
+            </ul>
+            
+            <form class="form-inline my-2 my-sm-0">
+                <input class="form-control mr-xl-2" type="search" placeholder="&#xF002; Search" value="" name="s"  title="Search for:" style="font-family:Arial, FontAwesome; width: 45%;" aria-label="Search">
+                <button type="button" class="login-btn" data-toggle="modal" data-target="#exampleModal">Log in</button>
+                <button type="button" class="signup-btn" data-toggle="modal" data-target="#exampleModal1">Sign Up</button>
+            </form>
+        
+        </diV>
+        
+
+</nav>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-m">
+            <div class="modal-content">
+                <div class="modal-body" style="border-radius: 20px;">
+                    <div class="modal-login">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-circle-xmark"></i></span>
+                        </button>
+                        <h1>Welcome back!</h1>
+                        <p>Enter your username and password to log in to your admin panel</p>
+                        <label>Email</label>
+                        <input type="email" name="uname" placeholder="example@gmail.com" required/>
+                        <label>Password</label>
+                        <input type="password" name="psw" placeholder="Your Password" required/>
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <button id="btn-login">Log in</button>
+                        <button id="btn-g-login">Log in with Google</button>
+                        <p>Don't have an account yet? <a data-toggle="modal" data-hide="#exampleModal" data-target="#exampleModal1"><b>Sign Up</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-m"> 
+            <div class="modal-content">
+                <div class="modal-body" style="border-radius: 20px;">
+                    <div class="modal-login">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-circle-xmark"></i></span>
+                        </button>
+                        <h1>Sign up</h1>
+                        <p>Register to log in to your admin panel</p>
+                        <label>Email</label>
+                        <input type="email" name="uname" placeholder="example@gmail.com" required/>
+                        <div class="signup-psw">
+                        <div class="signup-password">
+                            <label>Password</label>
+                            <input type="password" name="psw" placeholder="Your Password" required/>
+                            </div>
+                            <div class="signup-confirm-password">
+                                <label>Confirm Password</label>
+                                <input type="password" name="psw" placeholder="Confirm Password" required/>
+                            </div>
+                        </div>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> I have read and accept terms and conditions
+                            </label>
+                            <button id="btn-login">Sign Up</button>
+                            <button id="btn-g-login">Sign Up with Google</button>
+                            <p>Have an account? <a data-toggle="modal" data-target="#exampleModal"><b>Sign in</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--front-page-->
+
+    <div class="blogs-frontpage-card">
+        <h1>Essential Insights on<br><span>Design</span> and <span>Development</span></h1>
+        <p>Unleashing Creativity and Innovation in the Digital World</p>
+    </div>
+
+<!--blogs list-->
+
+<div class="blog-100">
+    <div class="dflex-con">
+        <div class="container-blog">
+            <button class="featured-blog">Featured Blog Post</button>
+            <button class="featured">Development</button>
+            <button class="featured">Design</button>
+            <button class="featured">Digital Marketing</button>
+            <button class="featured">Web Development</button>
+            <button class="featured">Graphic Design</button>
+            <button class="featured">Consulting</button>
+            <button class="featured">Influencer Marketing</button>
+        </div>
+
+        <div class="blog-container1" id="blog">
+            <div class="blog-header mt-5">
+                <h1 style="font-size: 27px; font-weight: 600;">Featured Blog Post</h1>
+                <hr/>
+            </div>
+            <div class="blogs-cards-container">
+                <div class="post-box" onclick="blogcardOpen(1)">
+                    <div class="post-image">
+                        <img src="images/blogs/image_blogPage1.jpg" alt="FeaturedBlogPostimage1">
+                    </div>
+                    <div class="post-content">
+                        <h2>How to Maximize Your Digital Marketing Efforts</h2>
+                        <div class="post-details">
+                            <span class="category"><b>Marketing</b></span>
+                            <span class="date">24 June 2024</span>
+                        </div>
+                        <p>Learn the top strategies for enhancing your digital presence and driving engagement...</p>
+                        <div class="card-button">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-box" onclick="blogcardOpen(2)">
+                    <div class="post-image">
+                        <img src="images/blogs/image_blogPage2.jpg" alt="FeaturedBlogPostimage2">
+                    </div>
+                    <div class="post-content">
+                        <h2>Create a User-Centric Website with iamdigipro</h2>
+                        <div class="post-details">
+                            <span class="category"><b>Design</b></span>
+                            <span class="date">24 June 2024</span>
+                        </div>
+                        <p>Discover the best practices for designing websites that captivate and convert visitors...</p>
+                        <div class="card-button">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-box" onclick="blogcardOpen(3)">
+                    <div class="post-image">
+                        <img src="images/blogs/image_blogPage3.jpg" alt="FeaturedBlogPostimage3">
+                    </div>
+                    <div class="post-content">
+                        <h2>Top Web Development Trends in 2024</h2>
+                        <div class="post-details">
+                            <span class="category"><b>Development</b></span>
+                            <span class="date">24 June 2024</span>
+                        </div>
+                        <p>Story ahead of the curve with the latest techniques and tools shaping the future of web development...</p>
+                        <div class="card-button">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-box" onclick="blogcardOpen(4)">
+                    <div class="post-image">
+                        <img src="images/blogs/image_blogPage4.jpg" alt="FeaturedBlogPostimage4">
+                    </div>
+                    <div class="post-content">
+                        <h2>Enhancing User Experience with Intuitive UI</h2>
+                        <div class="post-details">
+                            <span class="category"><b>Design</b></span>
+                            <span class="date">24 June 2024</span>
+                        </div>
+                        <p>Explore design principles that make a difference in creating intuitive and engaging user interfaces...</p>
+                        <div class="card-button">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-box" onclick="blogcardOpen(5)">
+                    <div class="post-image">
+                        <img src="images/blogs/image_blogPage5.jpg" alt="FeaturedBlogPostimage5">
+                    </div>
+                    <div class="post-content">
+                        <h2>How to Dominate Search Engines with Effective SEO Techniques</h2>
+                        <div class="post-details">
+                            <span class="category"><b>Marketing</b></span>
+                            <span class="date">24 June 2024</span>
+                        </div>
+                        <p>Learn the top strategies for enhancing your digital presence and driving engagement...</p>
+                        <div class="card-button">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-box" onclick="blogcardOpen(6)">
+                    <div class="post-image">
+                        <img src="images/blogs/image_blogPage6.jpg" alt="FeaturedBlogPostimage6">
+                    </div>
+                    <div class="post-content">
+                        <h2>How to Measure and Improve Your Digital Marketing ROI</h2>
+                        <div class="post-details">
+                            <span class="category"><b>Marketing</b></span>
+                            <span class="date">24 June 2024</span>
+                        </div>
+                        <p>Learn the top strategies for enhancing your digital presence and driving engagement...</p>
+                        <div class="card-button">
+                            <p>Read More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog-card1" style="display: none;">
+            <div class="blog-header1 mt-5">
+                <button onclick="blogcardClose()"><p style="color: #F66136; font-size: 24px;">Blogs <span style="font-size: 24px; font-weight: 600; color: black;"><span style="font-weight: 300;">></span> <span id="blog-title">How to Maximize Your Digital Marketing Efforts</span></span></p></button>
+            </div>
+            <hr style="border-top: solid 1px gray; width: 100%;" />
+            <div class="blog1">
+                <div class="blog-card">
+                    <div class="image-container">
+                        <img id="blog-image" src="images/blogs/image_blogPage1.jpg" alt="FeaturedBlogPostimage1">
+                        <div class="blog-card-content">
+                            <h2 id="blog-card-title">How to Maximize Your Digital Marketing Efforts</h2>
+                            <p id="blog-content">To maximize your digital marketing efforts, focus on integrating end-to-end digital marketing strategies, impactful web development and design, and compelling graphical design works...</p>
+                            <div class="blogs-footer">
+                                <span class="tag"><b id="blog-category">Marketing</b></span>
+                                <span class="date" id="blog-date">24 June 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--footer-->
+    <footer class="footer">
+        <div class="footer-section">
+            <div class="column logo">
+                <img src="images/logo2.png" alt="iamdigipro">
+            </div>
+            <div class="column">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="consultsus.html">Contact us</a></li>
+                    <li><a href="blogspage.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="digitalMarketingServicesPage.html">Digital Marketing</a></li>
+                    <li><a href="WebDevelopment.html">Web Development</a></li>
+                    <li><a href="graphicDesign.html">Graphic Design</a></li>
+                    <li><a href="consultingServices.html">Consulting</a></li>
+                    <li><a href="influencerMarketingServices.html">Influencer Marketing</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Careers</h3>
+                <ul>
+                    <li><a href="careersPage.html">Training</a></li>
+                    <li><a href="careersPage.html#internshipSupportSection">Internship</a></li>
+                    <li><a href="careersPage.html#jobAssistanceSection">Job Opportunities</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    <!-- jump button -->
+            
+        <div class="footer-right d-flex justify-content-end">
+            <a href="#" id="goTop" class="go-top"><i class="fa-solid fa-arrow-up-long"></i></a>
+        </div>
+       
+    <div class="footer-bottom d-flex flex-row ">
+        <div class="copyright">
+            <li>@2024 IAM DIGIPRO</li>
+            <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+            <li>Cookies Policy</li>
+            <li><a href="termsOfUse.html">Terms of use</a></li>
+        </div>
+        <div class="footer-email">
+            <p><b>Email Us at :</b> info@iamdigipro.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/iam_digipro?igsh=MzRlODBiNWFlZA==" target="_blank" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61560868171435" target="_blank" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/iam-digipro-127123313/" target="_blank" class="social-icon linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/iamdigipro" target="_blank" class="social-icon linkedin"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.youtube.com/@IamDigitalPro/featured" target="_blank" class="social-icon linkedin"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+<div class="wtsapp-icons ">
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/9381776396"> <i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
+<button class="ct-button" id="openFormButton"><i class="fa-solid fa-circle fa-beat-fade blinking"></i>Let's talk</button>
+    
+<div id="formContainer" class="modal-form-container">
+    <form class="modal-form">
+        
+            <i class="fa-solid fa-circle-xmark cl-icon" onclick="closeForm()" style="float: right; color: white;" ></i>
+          
+        <h1 style="font-size: small; margin: 5px;">I am Interested in</h1>
+        <div class="interest-buttons">
+            <div>
+                <button type="button" style="font-size: x-small">Digital Marketing</button>
+                <button type="button" style="font-size: x-small">Web Development</button>
+            </div>
+            <div>
+                <button type="button" style="font-size: x-small">Graphic Design</button>
+                <button type="button" style="font-size: x-small">Consulting</button>
+                <button type="button" style="font-size: x-small">Influencer Marketing</button>
+            </div>
+        </div>
+        <label for="name">I am</label>
+        <input type="text" id="name" name="name" placeholder="John" required>
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="email">Email <span style="color:rgb(109, 109, 108);">(Optional)</span></label>
+        <input type="email" id="email" name="email" placeholder="iam@gmail.com">
+        <button type="submit" class="enquiry-send-button" style="padding: 10px; margin-right: 15px;font-size: small">Send</button>
+    </form>
+</div>
+
+
+</div>
+
+</body>
+</html>
